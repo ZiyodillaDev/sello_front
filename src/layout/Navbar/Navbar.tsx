@@ -399,7 +399,7 @@ function Navbar() {
           </form>
         </div>
       </VerifyModal>
-      <Modal modal={loginModal} setModal={setLoginModal}></Modal>
+      <Modal modal={loginModal} setModal={setLoginModal} children={""}></Modal>
     </div>
   );
 }

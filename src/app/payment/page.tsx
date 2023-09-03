@@ -89,9 +89,9 @@ export default function Payment() {
           <form onSubmit={handleSubmit}>
             <fieldset className="FormGroup border border-bgColor p-3 mb-3 rounded-md">
               <div className="FormRow">
-                <CardNumberElement options={CARD_OPTIONS} />
+                <CardNumberElement  />
               </div>
-            </fieldset>
+            </fieldset> 
             <fieldset className="FormGroup border border-bgColor p-3 mb-3 rounded-md">
               <div className="FormRow">
                 <CardExpiryElement options={CARD_OPTIONS} />
